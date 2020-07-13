@@ -29,3 +29,5 @@ Hospital api
 4. npm install 
 4. npm start 
 ```
+
+Note :  Sir the reports/:status route workes, i must be missing something in video because i tried it just before video and it was working fine , I did'nt make the video again because the time was about to be up and i did not wanted to end up being late.
