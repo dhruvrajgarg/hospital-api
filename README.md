@@ -1,5 +1,12 @@
 # Hospital API
 An API to manage hospital data 
+## Routes 
+- /doctors/register → with username and password
+- /doctors/login → returns the JWT to be used
+- /patients/register
+- /patients/:id/create_report 
+- /patients/:id/all_reports → List all the reports of a patient oldest to latest
+- /reports/:status → List all the reports of all the patients filtered by a specific status
 ## Directory Structure
 ```
 Hospital api

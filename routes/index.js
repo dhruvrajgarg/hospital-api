@@ -6,11 +6,11 @@ console.log("Router Loaded");
 
 router.use("/api", require("./api"));
 
-router.get('/' , (req, res) => {
-    res.status(200).json({
-    message : "Welcome To Home Page"
-})
-});
+// router.get('/' , (req, res) => {
+//     res.status(200).json({
+//     message : "Welcome To Home Page"
+//     })
+// });
 
 
 // for any further routes, access from here

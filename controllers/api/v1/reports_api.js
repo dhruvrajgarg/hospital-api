@@ -22,11 +22,14 @@ module.exports.filterReport = (req, res) => {
     if(status == "All"){
         Report.find({},(err,reports)=>{
 
-        return res.status(200).json({reports});
-    });
-    }
-    Report.find({status},(err,reports)=>{
+            return res.status(200).json({reports});
+        });
+    }else{
+        Report.find({status},(err,reports)=>{
 
-        return res.status(200).json({reports});
-    });
+            return res.status(200).json({reports});
+            
+        });
+    }
+    
 }
